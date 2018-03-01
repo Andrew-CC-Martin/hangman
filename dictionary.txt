@@ -1,11 +1,13 @@
 boolean 
-blocks
+block
 array
 Hash
 Modulus
-Methods
+Method
 string
 integer
 syntax
 variable
 constant
+rails
+loop

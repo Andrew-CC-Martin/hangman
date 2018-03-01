@@ -14,7 +14,7 @@ module Enter
         if any_match == false then
             lives -=1
         end
-        return lives, placeholder
+        return lives, placeholder, input
     end
 end
 
