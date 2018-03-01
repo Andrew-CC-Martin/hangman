@@ -1,10 +1,10 @@
 boolean 
 blocks
 array
-hash
-modulus
-methods
-String
+Hash
+Modulus
+Methods
+string
 integer
 syntax
 variable
