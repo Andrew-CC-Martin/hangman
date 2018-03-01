@@ -20,16 +20,16 @@ while true do
         print x.colorize(:light_blue)
     end
     puts "\n"
-        if lives<1 then
-            puts "The word was #{word}. You Lose!"
-            exit(0)
-        end
-        lives, placeholder, input = Enter.char word_array, placeholder, lives
-        letters_entered.push input
-        unless placeholder.include? "_" then
-            puts "Congratulations, you win!"
-            exit(0)
-        end
+    if lives<1 then
+        puts "The word was #{word}. You Lose!"
+        exit(0)
+    end
+    unless placeholder.include? "_" then
+        puts "Congratulations, you win!"
+        exit(0)
+    end
+    lives, placeholder, input = Enter.char word_array, placeholder, lives
+    letters_entered.push input
 end
 
 
